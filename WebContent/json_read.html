@@ -13,9 +13,9 @@
         $( '#ajax-button' ) .click(
         function() {
             $.ajax({
-              url: './404.html',
+              url: '404.html',
               type:'GET',
-              dataType: 'json',
+              dataType: 'jsonp',
               success: function(data) {
                            alert("ok");
                        },
